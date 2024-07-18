@@ -22,7 +22,7 @@ The Objective of this project is to perform a comprehensive analysis of the sale
 
 2. **Data Cleaning and Preparation**:Before analyzing the data and creating visualizations, it is essential to clean and prepare the dataset to ensure accuracy and reliability. This section outlines the steps taken to clean and prepare the data using Excel and Power Query.
 
-#### 2.1 Handling Missing Values: 
+### 2.1 Handling Missing Values: 
 Missing values can skew the analysis and lead to incorrect conclusions. Addressing missing values appropriately is crucial for data integrity Missing values were identified using Power Query. Once identified different strategies were used depending on the column type: For numerical columns such as `transaction_qty` and `unit_price`, missing values were filled with the mean of the respective columns. For categorical columns such as `product_category`, `product_type`, and `product_detail`, missing values were filled with the mode to maintain consistency.
 
 #### 2.2 Data Validation and Correction: 
