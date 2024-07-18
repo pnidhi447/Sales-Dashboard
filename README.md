@@ -28,6 +28,7 @@ Before analyzing the data and creating visualizations, it is essential to clean 
 **2.1 Handling Missing Values:** 
 Missing values can skew the analysis and lead to incorrect conclusions. Addressing missing values appropriately is crucial for data integrity Missing values were identified using Power Query. Once identified different strategies were used depending on the column type: For numerical columns such as `transaction_qty` and `unit_price`, missing values were filled with the mean of the respective columns. For categorical columns such as `product_category`, `product_type`, and `product_detail`, missing values were filled with the mode to maintain consistency.
 
+<!-- Blank line -->
 **2.2 Data Validation and Correction:**
 Ensuring that each column has the correct data type is crucial for accurate analysis. The data types were validated and corrected:
 - **Date Columns**: The `transaction_date` column was converted to a Date type to enable date-based analysis.
@@ -36,13 +37,16 @@ Ensuring that each column has the correct data type is crucial for accurate anal
   validated as a decimal number to ensure precise calculations.
 - **Categorical Columns**: Columns such as `store_location`, `product_category`, `product_type`, and `product_detail` were validated as text to maintain data consistency.
 
+<!-- Blank line -->
 **2.3 Removing Duplicate Values :** 
 Duplicate records can lead to inaccurate analysis and biased results. The dataset was checked for duplicates and any duplicate rows were removed to ensure data quality:
 
+<!-- Blank line -->
 **2.4 Creating New Columns:**
 To enhance the analysis, new calculated columns were added. These columns provide additional insights and facilitate more detailed analysis:
 **Total Sales**: A new column `total_sales` was created by multiplying `transaction_qty` by `unit_price`. This column represents the total revenue generated from each transaction.
 
+<!-- Blank line -->
 2.5. Data Validation:
 Data validation was done to ensur that numerical values were within expected ranges, categorical values were consistent, and date/time values were correctly formatted. These checks helped ensure the data's accuracy and reliability.
 
