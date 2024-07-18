@@ -22,7 +22,7 @@ The dataset used in this project was collected from Kaggle and contains detailed
 - **product_detail** : Additional details about the product.
 
 
-##2. **Data Cleaning and Preparation**:
+## 2. **Data Cleaning and Preparation**:
 Before analyzing the data and creating visualizations, it is essential to clean and prepare the dataset to ensure accuracy and reliability. This section outlines the steps taken to clean and prepare the data using Excel and Power Query.
 
 **2.1 Handling Missing Values:** 
@@ -46,7 +46,7 @@ To enhance the analysis, new calculated columns were added. These columns provid
 2.5. Data Validation:
 Data validation was done to ensur that numerical values were within expected ranges, categorical values were consistent, and date/time values were correctly formatted. These checks helped ensure the data's accuracy and reliability.
 
-##**3.Creationg dashboard:**
+## **3.Creationg dashboard:**
    Imported cleaned data into Power BI, ensured correct table relationships, and created the analysis dashboard.
    ![Sales Dashboard](images/dashboard.png)
 
