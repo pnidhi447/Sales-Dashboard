@@ -55,7 +55,7 @@ Data validation was done to ensur that numerical values were within expected ran
    ![Sales Dashboard](images/dashboard.png)
 
 ## **4.Analyzing and interpreting data:**
-    1.Sales have been steadily increasing each month, with the highest sales in June $166,485.88 and the lowest in February $76,145.19, indicating a significant upward trend over the six months.
+  1.Sales have been steadily increasing each month, with the highest sales in June $166,485.88 and the lowest in February $76,145.19, indicating a significant upward trend over the six months.
     2.Sales are relatively consistent throughout the weekdays, with the highest sales on Monday $101,677.28 and the lowest on Saturday $96,894.48, indicating steady performance with a slight dip on weekends.
     3.Sales peak between 8 AM and 10 AM, with the highest sales at 10 AM - $88,673.39, followed by a gradual decline throughout the day, indicating morning hours as the busiest period
     4.Store in New york has the highest sales of $236,511.17, closely followed by stores in Lower Manhattan and Astoria. All three stores have comparable sales, indicating consistent performance across locations.
