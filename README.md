@@ -50,7 +50,7 @@ To enhance the analysis, new calculated columns were added. These columns provid
 ### 2.5. Data Validation:
 Data validation was done to ensur that numerical values were within expected ranges, categorical values were consistent, and date/time values were correctly formatted. These checks helped ensure the data's accuracy and reliability.
 
-## **3.Creationg dashboard:**
+## **3.Creating dashboard:**
    
    ![Sales Dashboard](images/dashboard.png)
 
